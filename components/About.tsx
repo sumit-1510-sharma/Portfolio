@@ -25,7 +25,7 @@ function About({}: Props) {
         <div className='w-72 text-md'>
           I am a highly-motivated and adaptable <span className='text-[#f7ab0a]'>Software Engineering</span> Student
           and eager to kick start my career in the world of Technology.
-          Proficient in <span className='text-[#f7ab0a]'>Java</span> Programming, Data Structures and Algorithms.
+          Proficient in <span className='text-[#f7ab0a]'>Full-Stack Java</span> Programming, Data Structures and Algorithms.
           Strong Problem-solving and collaborations skills. 
           <p className='hidden md:flex'>Effective communicator with a passion for continuous learning.</p> 
         </div>

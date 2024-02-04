@@ -16,21 +16,21 @@ function Projects({}: Props) {
                 <img 
                   
                   className='h-20 mt-16'
-                  src="linked.png" alt="" />
+                  src="instagramprojectimage.jpeg" alt="" />
                 
                 <div className='space-y-10 px-0 md:px-10 max-w-6xl'>
                   <h4 className='text-2xl font-semibold text-center'>
                     <span className='underline decoration-[#F7AB0A]/50'>
                       Case Study 1 of 4:
                     </span>{" "}
-                    <span className='text-blue-500 italic'>LinkedIn </span> Clone
+                    <span className='text-purple-500 italic'>Instagram </span> Clone
                   </h4>
 
                   <div className='text-lg text-center'>
-                  In this<span className='text-blue-500 italic'> LinkedIn </span> clone I've used React and Vanilla Css to design front-end. 
-                  Firebase firestore is used to store the messages or posts of the persons and the project is deployed on Google Firebase as well.
-                  <p className='hidden sm:flex sm:flex-col'>Firebase google authentication is being used to store and authenticate the users making account first time or logging in.</p>
-                  <a href='https://linkedin-clone-c614b.web.app/' className='uppercase mx-auto text-blue-500'> link</a>
+                  This is a full-stack Java project, in this<span className='text-purple-500 italic'> Instagram </span> clone I've used Spring and Spring Boot frameworks for backend APIs (deployed on Railway cloud).
+                  React JS and Tailwind CSS for the frontend part (deployed on Vercel).
+                  Spring Security with "JWT token authenticaion" is integrated. <p>MySql docker image is being used for database.</p>
+                  <p><a href='https://sumitsharma-instagramapp.vercel.app/' className='uppercase mx-auto text-purple-500'> link</a></p>
                   </div>
                   
                 </div>
@@ -95,14 +95,14 @@ function Projects({}: Props) {
                     <span className='underline decoration-[#F7AB0A]/50'>
                       Case Study 4 of 4:
                     </span>{" "}
-                    <span className='text-purple-500 italic'>Portfolio </span>
+                    <span className='text-blue-500 italic'>Portfolio </span>
                   </h4>
 
                   <div className='text-lg text-center'>
-                  And last but not the least, in this<span className='text-purple-500 italic'> Portfolio </span> Gallery project I've used NextJs and TailwindCSS to design front-end. 
+                  And last but not the least, in this<span className='text-blue-500 italic'> Portfolio </span> Gallery project I've used NextJs and TailwindCSS to design front-end. 
                   Vercel is used to deploy the portfolio. It includes my various social handles, about section, my experience, projects, and contact me section.
                   <p className='hidden sm:flex sm:flex-col'>This is by far my favourite project as a learner and I really enjoyed a lot while building this. </p>
-                  <a href='#hero' className='uppercase mx-auto text-purple-500'> link</a>
+                  <a href='#hero' className='uppercase mx-auto text-blue-500'> link</a>
                   </div>
                   
                 </div>

@@ -27,7 +27,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='java.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -42,7 +42,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='dsa2.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -56,12 +56,57 @@ function Skills({}: Props) {
         initial={{x:-200, opacity:0}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
-        src='c++.png'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        src='springbootimage.png'
+        className='rounded-full border border-gray-500 object-contain h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
-              <p className='text-lg font-bold text-black opacity-100'>50%</p>
+              <p className='text-lg font-bold text-black opacity-100'>75%</p>
+            </div>
+        </div>
+      </div>
+
+      <div className='group relative flex cursor-pointer'>
+      <motion.img
+        initial={{x:-200, opacity:0}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+        src='springcoreimage.png'
+        className='rounded-full border border-gray-500 object-contain h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-lg font-bold text-black opacity-100'>75%</p>
+            </div>
+        </div>
+      </div>
+
+      <div className='group relative flex cursor-pointer'>
+      <motion.img
+        initial={{x:-200, opacity:0}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+        src='dockerimage.png'
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-lg font-bold text-black opacity-100'>60%</p>
+            </div>
+        </div>
+      </div>
+
+      <div className='group relative flex cursor-pointer'>
+      <motion.img
+        initial={{x:-200, opacity:0}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+        src='oopimage.jpg'
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-lg font-bold text-black opacity-100'>100%</p>
             </div>
         </div>
       </div>
@@ -72,7 +117,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='mysql.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -87,7 +132,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='os.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -102,7 +147,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='dbms.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -117,23 +162,11 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='cns.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
               <p className='text-lg font-bold text-black opacity-100'>90%</p>
-            </div>
-        </div>
-      </div>
-
-      <div className='group relative flex cursor-pointer'>
-      <img
-        src='guitarhand.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
-
-        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
-            <div className='flex items-center justify-center h-full'>
-              <p className='text-lg font-bold text-black opacity-100'>100%</p>
             </div>
         </div>
       </div>
@@ -144,7 +177,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='htmlCss.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -159,7 +192,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='javascript.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -173,8 +206,8 @@ function Skills({}: Props) {
         initial={{x:200, opacity:0}}
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
-        src='tailwind.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        src='tailwindimage.png'
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -189,7 +222,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?pid=ImgDet&rs=1'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -204,7 +237,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='nextjs.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -219,7 +252,7 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='vscode.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
@@ -234,7 +267,52 @@ function Skills({}: Props) {
         transition={{duration:1}}
         whileInView={{opacity:1,x:0}}
         src='intellij.jpg'
-        className='rounded-full border border-gray-500 object-cover h-12 w-12 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-lg font-bold text-black opacity-100'>90%</p>
+            </div>
+        </div>
+      </div>
+
+      <div className='group relative flex cursor-pointer'>
+      <motion.img
+        initial={{x:200, opacity:0}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+        src='eclipseimage.png'
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-lg font-bold text-black opacity-100'>90%</p>
+            </div>
+        </div>
+      </div>
+
+      <div className='group relative flex cursor-pointer'>
+      <motion.img
+        initial={{x:200, opacity:0}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+        src='awsimage.jpg'
+        className='rounded-full border border-gray-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
+
+        <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
+            <div className='flex items-center justify-center h-full'>
+              <p className='text-lg font-bold text-black opacity-100'>95%</p>
+            </div>
+        </div>
+      </div>
+
+      <div className='group relative flex cursor-pointer'>
+      <motion.img
+        initial={{x:200, opacity:0}}
+        transition={{duration:1}}
+        whileInView={{opacity:1,x:0}}
+        src='firebaseimage.png'
+        className='rounded-full border border-blue-500 object-cover h-14 w-14 md:w-16 md:h-16 filter group-hover:grayscale transition duration-300 ease-in-out' />
 
         <div className='absolute opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-12 w-12 md:h-16 md:w-16 rounded-full z-0'>
             <div className='flex items-center justify-center h-full'>
